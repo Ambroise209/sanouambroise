@@ -1,0 +1,52 @@
+.animated-element {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: example 2s infinite; /* nom de l'animation, durée, itération */
+}
+
+@keyframes example {
+    0% { background-color: red; } /* étapes de l'animation */
+    50% { background-color: blue; }
+    100% { background-color: red; }
+}body{
+    font-family:'open sans' , sans-cherif;
+}
+
+.div{
+    width: 500px;
+    background-color: rgb(196, 243, 255);
+    font-size: 20px;
+    -webkit-transition:3s width 2s ease, background-color 5s ease;
+	-moz-transition:3s width 2s ease, background-color 5s ease;
+	-o-transition:3s width 2s ease, background-color 5s ease;
+	transition:3s width 2s ease, background-color 5s ease;
+    position:absolute;
+    left: px;
+    top: 20px;
+    text-emphasis-position: 200px;
+    
+}
+#form{
+    text-shadow: 700px ;
+    border: 10px solid yellow;
+  }
+  div:hover{
+	width: 700px;
+    background-color: #A92;
+}
+  
+.legend{
+    color: red;
+    font-weight: bold;
+}
+.sub{
+    text-align: center;
+    color:black;
+    background-color: yellow;
+    left: 80px;
+    float: right;
+    width: 200px;
+    border:5px calc() #A92  ;
+}
+
